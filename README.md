@@ -1,6 +1,6 @@
 # KiloGram Annotation Task
 Task website for collecting annotation for tangrams from MTurk. 
-Adapted from [IonicaBizau/tangram](`https://github.com/IonicaBizau/tangram`).
+Adapted from [IonicaBizau/tangram](https://github.com/IonicaBizau/tangram).
 
 # Demo
 Try out the task demo at https://tangram-online.web.app/!
