@@ -1,0 +1,10 @@
+*.swp
+*.swo
+*~
+*.log
+node_modules
+*.env
+.DS_Store
+package-lock.json
+.bloggify/*
+public/js/firebaseConfig.json

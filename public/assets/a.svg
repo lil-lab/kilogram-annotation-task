@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 207 200" xmlns="http://www.w3.org/2000/svg">
+  <polygon fill="lightgray" id="1" points="77.767 50.929 125.767 50.929 125.767 2.929 77.767 2.929" stroke="white" strokewidth="1"/>
+  <polygon fill="lightgray" id="2" points="50.204 101.164 98.204 101.164 50.204 149.164 2.204 149.164" stroke="white" strokewidth="1"/>
+  <polygon fill="lightgray" id="3" points="102.482 102.212 150.482 54.212 102.482 54.212" stroke="white" strokewidth="1"/>
+  <polygon fill="lightgray" id="4" points="101.322 101.776 100.52 53.776 52.52 53.776" stroke="white" strokewidth="1"/>
+  <polygon fill="lightgray" id="5" points="155.616 149.014 203.616 101.014 107.616 101.014" stroke="white" strokewidth="1"/>
+  <polygon fill="lightgray" id="6" points="102.462 196.825 6.462 196.825 102.462 100.825" stroke="white" strokewidth="1"/>
+  <polygon fill="lightgray" id="7" points="104.069 196.629 200.069 196.629 104.069 100.629" stroke="white" strokewidth="1"/>
+</svg>

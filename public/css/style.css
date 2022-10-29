@@ -1,0 +1,276 @@
+.button {
+  border: none;
+  color: white;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #808080;
+  border: none;
+  color: white;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: default;
+}
+
+.trash {
+  background-color: #de2b2b;
+  border: none;
+  color: white;
+  font-size: 15px;
+  vertical-align: 5%;
+}
+
+.next-area {
+  position: fixed;
+  bottom: 20%;
+  right: 5%;
+  display: none;
+}
+
+.next {
+  background-color: #4caf50;
+  z-index: 10;
+  left: 0;
+  bottom: 7%;
+}
+
+.irb {
+  position: fixed;
+  top: 80%;
+  left: 62%;
+  right: 5%;
+  bottom: 5%;
+  font-size: 15px;
+}
+
+.left-cover {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  bottom: 40%;
+  align-items: center;
+  z-index: 13;
+  display: block;
+  background-color: #ffffff;
+}
+
+.left {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  bottom: 40%;
+  align-items: center;
+  z-index: 12;
+  display: block;
+}
+
+.question-layout {
+  position: fixed;
+  align-items: center;
+  top: 5%;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 14;
+  font-size: 18px;
+  display: none;
+  background-color: #ffffff;
+  width: 70%;
+}
+
+.btn-language {
+  border: none;
+  color: white;
+  padding: 7px 14px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.other-input {
+  font-size: 15px;
+  width: 150px;
+  display: none;
+}
+
+.whole-layout {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  display: none;
+}
+
+.piece-layout {
+  position: fixed;
+  top: 60%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  display: none;
+}
+
+.instructions {
+  position: fixed;
+  top: 5%;
+  bottom: 70%;
+  left: 5%;
+  right: 30%;
+}
+
+/* .image {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: auto;
+  bottom: 50%;
+  right: 0;
+} */
+
+.tangram {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  bottom: 40%;
+  right: 0;
+  transform: translate(-50%, 0);
+}
+
+.annotation {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  bottom: 0;
+  right: 40%;
+}
+
+.textbox {
+  height: 4vh;
+  width: 20vh;
+  padding-left: 10px;
+}
+
+/* .suggestion {
+  font-size: 15px;
+} */
+
+.output-outer-whole {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 0;
+  font-size: 20px;
+}
+
+.output-outer {
+  position: fixed;
+  top: 10%;
+  left: 62%;
+  right: 5%;
+  bottom: 20%;
+  font-size: 20px;
+}
+
+.piece-description {
+  position: fixed;
+  /* top: 0; */
+  left: 62%;
+  right: 0;
+  bottom: 90%;
+  font-size: 20px;
+}
+
+.select-description {
+  position: fixed;
+  /* top: 0; */
+  left: 10%;
+  right: 40%;
+  bottom: 90%;
+  font-size: 20px;
+}
+
+.output {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 48%;
+  font-size: 20px;
+  background-color: #a5dc8659;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  border-radius: 5%;
+}
+
+.whole-result {
+  top: 0;
+  margin-bottom: 1px;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.note {
+  position: absolute;
+  top: 52%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 17px;
+}
+
+.submit {
+  background-color: #4caf50;
+}
+
+.idk {
+  background-color: #ffb700;
+}
+
+/* .instructions-bt {
+  background-color: #4caf50;
+  display: none; 
+} */
+
+.add {
+  background-color: #4c7caf;
+}
+
+.preview {
+  position: absolute;
+  display: none;
+  top: 0;
+  bottom: 90%;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, 0);
+}
+
+.preview > p {
+  color: red;
+  font: 20px;
+  font-weight: bold;
+}
+
+.icon {
+  margin-left: 3px;
+  height: 15px;
+  vertical-align: middle;
+}
